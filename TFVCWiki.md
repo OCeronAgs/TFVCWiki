@@ -32,11 +32,11 @@ tf shelve "LoginFix_Oscar" /replace
   - En TFVC, solo una rama puede estar en tu workspace activa a la vez.
   - TFVC tiene "shelvesets", una ventaja para revisiones internas sin afectación al repositorio.
 
-        | Git         | TFVC              |
-        |-------------|-------------------|
-        | Distribuido | Centralizado       |
-        | Pull/Merge  | Shelve/Check-in    |
-        | Múltiples ramas locales | Workspace activo único |
+| Git         | TFVC              |
+|-------------|-------------------|
+| Distribuido | Centralizado       |
+| Pull/Merge  | Shelve/Check-in    |
+| Múltiples ramas locales | Workspace activo único |
 
 ### Estructura típica
 
